@@ -1,0 +1,39 @@
+/*
+This is comment section.
+
+*/
+
+*{
+    background-color: black;
+    color:maroon /* For all text in document */
+}
+
+/* Simple Selectors*/
+
+/* 1. Class(can be used on multiple tags)*/
+.my{
+    color:blueviolet /* Will only change for text having class= my */
+}
+
+/* 2. ID (one id can be used only on one tag)*/
+#myID{
+    color: darkgreen /* Will only change for text having id= myID */
+}
+
+/* Multiple Selectors*/
+
+/* 1. Nested Selectors (For one tag which is in another tag)*/
+div h1{
+    color:mediumblue /* Will only change for text having class= my */
+}
+
+/* 2. Group Selectors (for same styling of two different tags)*/
+fieldset legend, h2,  p{
+    color: tan /* Will only change for text having id= myID */
+}
+
+
+/* 3. Hybrid Selectors (for same styling of two different tags in other locations)*/
+h5, h6, ul li{
+    color: teal /* Will only change for text having id= myID */
+}
