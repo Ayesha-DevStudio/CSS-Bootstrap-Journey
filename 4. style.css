@@ -1,0 +1,95 @@
+
+#div1{
+    background-color: pink;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#div2{
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#div3{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.My{
+    border: 2px solid blue;
+    float: right;
+}
+
+#A1{
+    display: inline;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+
+#B2{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+#A{    
+    overflow: visible;
+    height: 120px;
+    width: 150px;
+    border: 2px solid black
+}
+
+#B{
+    overflow: hidden;
+    height: 120px;
+    width: 150px;
+    border: 2px solid black
+}
+
+#C{
+    overflow: scroll;
+    height: 120px;
+    width: 150px;
+    border: 2px solid black
+}
+
+#D{
+    overflow: auto;
+    height: 120px;
+    width:150px;
+    border: 2px solid black
+}
+
+div p{
+    background-color: yellow;
+}
+
+div > p{
+    border: 2px solid blue;
+}
+
+div + p{
+    text-decoration: underline;
+}
+
+div ~p{
+    font-weight: bold;
+}
