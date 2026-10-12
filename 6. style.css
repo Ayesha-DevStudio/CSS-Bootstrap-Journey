@@ -1,0 +1,83 @@
+:root{
+    background-color:bisque
+}
+
+input:enabled{
+    background-color : white;
+}
+
+input:disabled{
+    background-color: black;
+}
+
+input:read-only{
+    color: aqua;
+}
+
+input:read-write{
+    background-color: yellow;
+}
+
+input:required{
+    border: 5px solid red;
+}
+
+input:focus{
+    border: 5px solid greenyellow;
+}
+
+input:checked{
+    accent-color: purple;
+}
+
+input:in-range{
+    color: darkblue;
+
+}
+input:out-of-range{
+    background-color: black;
+}
+input:invalid{
+    color: red;
+}
+
+input:valid{
+    color: purple;
+}
+input:optional{
+    border: 3px solid green; 
+}
+
+p:empty{
+    border:2px solid red;
+}
+
+.A1:first-of-type{
+    color: red;
+}
+
+.A1:first-child{
+    display: inline;
+    border: 2px solid black;
+}
+
+.A1:last-child{
+    color: blue;
+}
+
+div:target{
+    border: 2px solid red;
+    padding: 5px; 
+}
+
+p:lang(en){
+    background-color: lightpink;
+}
+
+p:lang(tur){
+    background-color: lightcoral;
+}
+
+p:lang(urd){
+    background-color: lightgreen;
+}
